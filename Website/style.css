@@ -1,0 +1,126 @@
+/* General */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* Custom CSS */
+
+.bg-first {
+    background-color: #00296b !important;
+}
+
+.bg-second {
+    background-color: #3f51b5 !important;
+}
+
+.bg-third {
+    background-color: #c1121f !important;
+}
+
+.text-first {
+    color: #00296b !important;
+}
+
+.text-second {
+    color: #181818de !important;
+}
+
+.text-third {
+    color: #c1121f !important;
+}
+
+.shadow {
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%), inset 0 -1px 0 rgb(0 0 0 / 15%)
+}
+
+.transition {
+    transition: all .15s ease-out !important;
+}
+
+/* Navigation */
+
+.nav-button:link {
+    color: #ffffffc7 !important;
+}
+
+.nav-button:hover {
+    color: #ffffff !important;
+}
+
+/* Song list */
+
+.review-button:hover {
+    background-color: #c1121f !important;
+    border-color: #c1121f !important;
+    cursor: pointer !important;
+    color: #ffffff !important;
+}
+
+.checkbox-input:checked + .checkbox-label {
+    background-color: #9b0e17 !important;
+    border-color: #9b0e17 !important;
+    color: #ffffff !important;
+}
+
+/* Review page */
+
+.rating span i {
+    color: #001435;
+}
+
+.rating span:hover ~ span i,
+.rating span:hover i,
+.rating span.checked i,
+.rating span.checked ~ span i {
+    color: #fbbc04;
+    cursor: pointer;
+}
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+    display: none;
+}
+
+#return:hover {
+    color: #00296b !important;
+}
+
+#close:hover {
+    cursor: pointer;
+}
+
+.review-part:not(:first-child):not(:last-child) {
+    margin: 3rem 0;
+}
+
+.progress-chart canvas {
+    position: relative;
+}
+
+/* Editing Bootstrap */
+
+.dropdown-item:link {
+    transition: all .2s;
+}
+
+.dropdown-item:hover {
+    background-color: #c1121f !important;
+    color: #ffffff !important;
+}
+
+.dropdown-item:active {
+    background-color: #ffffff !important;
+}
